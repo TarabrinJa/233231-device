@@ -1,69 +1,8 @@
-.container {
-  margin: 0 auto;
-}
-
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
-
-.device-logo__text {
-  font-family: "Gilroy", "Arial", sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.device-logo__text--theme_black {
-  color: #000000;
-}
-
-.device-logo__text--theme_yellow {
-  color: #f7e184;
-}
-
-.search {
-  float: left;
-  width: 540px;
-}
-
-.search__input {
-  margin-left: 16px;
-  border: none;
-  background-color: transparent;
-}
-
-.search__input::-webkit-input-placeholder {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 15px;
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.search__button {
-  display: none;
-}
-
-.user-link {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 15px;
-  text-decoration: none;
-  }
-
-.user-link--theme_black {
-  color: #000000;
-}
-
-.user-link--theme_white {
-  color: #ffffff;
-  opacity: 0.7;
-}
-
-.user-link--login {
-  margin-left: 13px;
-}
-
-/*----------------------------------------------------------------*/
 
 .header-sprites::before {
   content: "";
@@ -141,10 +80,67 @@
   background-position: -149px -41px;
 }
 
-/*----------------------------------------------------------------*/
-
 .body {
   margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.device-logo__text {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.device-logo__text--theme_black {
+  color: #000000;
+}
+
+.device-logo__text--theme_yellow {
+  color: #f7e184;
+}
+
+.search {
+  float: left;
+  width: 540px;
+}
+
+.search__input {
+  margin-left: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+.search__input::-webkit-input-placeholder {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search__button {
+  display: none;
+}
+
+.user-link {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  }
+
+.user-link--theme_black {
+  color: #000000;
+}
+
+.user-link--theme_white {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.user-link--login {
+  margin-left: 13px;
 }
 
 .body__page-header {
