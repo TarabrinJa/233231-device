@@ -22,8 +22,8 @@
             <input class="search__input" type="search" name="search" placeholder="Поиск по сайту">
             <button class="search__button" type="submit">Найти</button>
           </form>
-          <div class="user-block user-block--header-login header-sprites header-sprites--login">
-            <a class="user-link user-link--theme_black header-user__user-link header-user__user-link--login" href="#">Войти</a>
+          <div class="user-block user-block--header_login header-sprites header-sprites--login">
+            <a class="user-link user-link--theme_black user-link--login" href="#">Войти</a>
           </div>
           <div class="user-block header-sprites header-sprites--cart">
             <a class="user-link user-link--theme_black" href="#">Корзина</a>
@@ -94,7 +94,7 @@
           <img class="promo-img" src="img/promo-slide-1.png" alt="Селфи-палка" width="384" height="486">
         </div>
         <div class="promo-discription">
-          <h2 class="promo-slogan">Делай селфи, <br> как Бен Стиллер!</h2>
+          <p class="promo-slogan">Делай селфи, <br> как Бен Стиллер!</p>
           <p class="promo-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длинной и весом всего 5 килограмм.</p>
           <div class="promo-more">
             <a class="promo-more-link" href="#">Подробнее</a>
@@ -118,7 +118,7 @@
           <img class="promo-img" src="img/promo-slide-2.png" alt="Фитнесс-браслет" width="345" height="485">
         </div>
         <div class="promo-discription">
-          <h2 class="promo-slogan">Худеем <br> правильно!</h2>
+          <p class="promo-slogan">Худеем <br> правильно!</p>
           <p class="promo-text">Мотивирующие фитнесс-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
           <div class="promo-more">
             <a class="promo-more-link" href="#">Подробнее</a>
@@ -138,7 +138,7 @@
           <img class="promo-img" src="img/promo-slide-3.png" alt="Квадрокоптер" width="526" height="334">
         </div>
         <div class="promo-discription">
-          <h2 class="promo-slogan">Порхает как бабочка, жалит как пчела!</h2>
+          <p class="promo-slogan">Порхает как бабочка, жалит как пчела!</p>
           <p class="promo-text">Этот обычный, на первый взгляд, квадрокоптер оснащён мощным лазером, замаскированным под стандартную камеру.</p>
           <div class="promo-more">
             <a class="promo-more-link" href="#">Подробнее</a>
@@ -296,29 +296,29 @@
       </div>
     </div>
     <footer class="page-footer">
-      <div class="container page-footer__container">
+      <div class="container page-footer__container footer-line">
         <div class="footer-top">
           <div class="device-logo page-footer__device-logo">
             <a class="device-logo__text device-logo__text--theme_yellow">Device</a>
           </div>
           <div class="footer-user page-footer__footer-user clearfix">
+            <div class="user-block user-block--footer_login footer-sprites footer-sprites--login">
+              <a class="user-link user-link--theme_white user-link--login" href="#">Войти</a>
+            </div>
             <div class="user-block footer-sprites footer-sprites--cart">
               <a class="user-link user-link--theme_white" href="#">Корзина</a>
             </div>
             <div class="user-block footer-sprites footer-sprites--compare">
               <a class="user-link user-link--theme_white" href="#">Сравнить</a>
             </div>
-            <div class="user-block footer-sprites footer-sprites--login">
-              <a class="user-link user-link--theme_white" href="#">Войти</a>
-            </div>
           </div>
         </div>
-        <div class="footer-middle">
-          <div class="footer-address-wrap">
-            <span class="footer-address">г. Москва, ул. Строителей, 15</span>
+        <div class="footer-middle clearfix">
+          <div class="address">
+            <span class="address__text">г. Москва, ул. Строителей, 15</span>
           </div>
-          <nav class="footer-menu">
-            <ul class="footer-menu-list">
+          <nav class="navigation page-footer__navigation">
+            <ul class="footer-menu-list clearfix">
               <li class="footer-menu-item">
                 <a class="footer-menu-link" href="#">Доставка</a>
               </li>
@@ -334,14 +334,20 @@
             <a class="phone-link" href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
           </div>
         </div>
-        <div class="bottom">
-          <div class="social">
-            <a class="social-link" href="https://facebook.com/htmlacademy">Фейсбук</a>
-            <a class="social-link" href="https://instagram.com/htmlacademy">Инстаграм</a>
-            <a class="social-link" href="https://twitter.com/htmlacademy">Твиттер</a>
+        <div class="footer-bottom clearfix">
+          <div class="social clearfix">
+            <div class="social-link-container">
+              <a class="facebook-link footer-sprites" href="https://facebook.com/htmlacademy"></a>
+            </div>
+            <div class="social-link-container">
+              <a class="instagram-link footer-sprites" href="https://instagram.com/htmlacademy"></a>
+            </div>
+            <div class="social-link-container">
+              <a class="twitter-link footer-sprites" href="https://twitter.com/htmlacademy"></a>
+            </div>
           </div>
           <div class="copyright">
-            <a class="copyright-link" href="https://htmlacademy.ru">HTML Academy</a>
+            <a class="copyright-link footer-sprites" href="https://htmlacademy.ru"></a>
           </div>
         </div>
       </div>
